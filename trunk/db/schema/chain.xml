@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="chain">
+    <desc>Main Chains table</desc>
+    <field name="id" type="I"><KEY/></field>
+    <field name="name" type="C" size="50"></field>
+    <field name="description" type="C" size="255"></field>
+  </table>
+
+  
+</schema>

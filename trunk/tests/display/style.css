@@ -1,0 +1,125 @@
+/************************************************************
+ *
+ *	$Date: 2006-07-17 00:17:58 +0100 (Mon, 17 Jul 2006) $
+ *	$Revision: 95 $
+ *	$Author: georgeocrawford $
+ *	$HeadURL: https://svn.sourceforge.net/svnroot/m2f/tests/display/style.css $
+ *
+ /***********************************************************/
+
+form#m2f_test_files {
+top: -110px;
+right: 0;
+border: 2px dotted #a5a5a5;
+background: #f2f2f2;
+font-size: 10px;
+margin-top: 0;
+margin-right: 0;
+margin-left: 0;
+padding: 10px;
+float: right;
+width: 200px;
+position: relative;
+}
+
+body {
+background: #b3c0da;
+font: 13px 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+padding: 120px 20px 20px;
+}
+
+a {
+color: brown;
+}
+
+form#m2f_test_files p {
+margin: 0;
+padding: 0;
+}
+
+strong {
+font-family: Courier New, Courier, mono;
+}
+
+.red {
+color: red;
+}
+
+.exception {
+margin: 0;
+padding: 0;
+color: #423414;
+font: 12px Courier New, Courier, mono;
+}
+
+.fail {
+margin: 0;
+padding: 0;
+color: #ff0205;
+font: 12px/10px Courier New, Courier, mono;
+}
+
+div {
+margin-bottom: 20px;
+padding: 0;
+}
+
+div#results {
+padding: 8px; 
+color: white;
+position: absolute;
+top: 70px;
+width: auto;
+}
+
+h1 {
+position: absolute;
+top: 0px;
+font-family:'Lucida Grande';
+margin-bottom: 80px;
+}
+
+.error {
+display: block;
+color: #ff0205;
+font: 11px Courier New, Courier, mono;
+}
+
+
+
+
+
+
+/*
+BBCode Display Styles
+*/
+
+
+code {
+color: #5ad041;
+background: #f0f0f0;
+display: block;
+padding: 5px;
+border: 1px solid #bebebe;
+margin: 10px 30px;
+font: 11px Courier, mono;
+}
+
+div.quote {
+background: #f0f0f0;
+padding: 5px;
+border: 1px solid #bebebe;
+margin: 5px 30px;
+color: #5e5e5e;
+font-size: 11px;
+}
+
+span.quotelable {
+font-weight: bold;
+display: block;
+font-size: 11px;
+margin: 5px 0 0 30px;
+padding: 0 0 0 5px;
+color: #484848;
+}
+

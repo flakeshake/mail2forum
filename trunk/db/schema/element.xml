@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="element">
+		<desc>Elements table</desc>
+		
+		<field name="name" type="C" size="30"></field>
+		<field name="element_fields" type="X"></field>
+		
+		<index name="name">
+			<descr>Unique index for element name</descr>
+			<col>name</col>
+			<UNIQUE/>
+		</index>
+	
+	</table>
+
+
+</schema>

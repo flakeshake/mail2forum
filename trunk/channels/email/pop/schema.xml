@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="channels_email_pop">
+    <desc></desc>
+    <field name="id" type="I"><KEY/></field>
+    <field name="direction" type="C" size="3"></field>
+    <field name="delete_msgs" type="L"></field>
+    <field name="max_msgs" type="I2"></field>
+  </table>
+  
+</schema>

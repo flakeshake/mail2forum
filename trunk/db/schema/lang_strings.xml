@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="lang_strings">
+		<field name="section" type="C" size="50"></field>
+		<field name="id" type="C" size="255"><NOTNULL/></field>
+		<field name="en" type="X" size="4000"></field>
+		<index name="lang_strings_section_id_index">
+			<col>section</col>
+			<col>id(255)</col>
+			<UNIQUE/>
+		</index>
+		<index name="lang_strings_section_index">
+			<col>section</col>
+		</index>
+		<index name="lang_strings_id_index">
+			<col>id(255)</col>
+		</index>
+	</table>
+
+</schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="log">
+    <field name="id" type="I"><KEY/><NOTNULL/></field>
+    <field name="logtime" type="T"><NOTNULL/></field>
+    <field name="ident" type="C" size="16"><NOTNULL/></field>
+    <field name="priority" type="I1"><NOTNULL/></field>
+    <field name="message" type="X"></field>
+  </table>
+
+  
+</schema>

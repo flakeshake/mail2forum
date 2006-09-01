@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="chain_elements">
+    <desc>mapping elements to the chains they are attached to</desc>
+    <field name="id" type="I"><KEY/></field>
+    <field name="chain_id" type="I"></field>
+    <field name="element_id" type="I"></field>
+    <field name="element_type" type="C" size="50"></field>
+    <field name="element_order" type="I"></field>
+		
+  </table>
+
+  
+</schema>
