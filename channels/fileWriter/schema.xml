@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+  <table name="channels_filewriter">
+    <desc></desc>
+    <field name="id" type="I"><KEY/></field>
+    
+    <field name="direction" type="C" size="3"></field>
+
+    <field name="filepath" type="C" size="100"></field>
+    
+  </table>
+  
+  
+  
+</schema>
